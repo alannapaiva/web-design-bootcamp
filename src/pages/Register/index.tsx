@@ -4,7 +4,7 @@ import 'boxicons';
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&family=Ubuntu:wght@300;400;500;700&display=swap');
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link> */
 
-function Home() {
+function Register() {
   return (
     <>
       <Container>
@@ -26,4 +26,4 @@ function Home() {
     </>
   );
 }
-export default Home;
+export default Register;

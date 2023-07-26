@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Register from './pages/Register'
+import { Router } from './components/Router'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Register />
+    <Router />
   </React.StrictMode>,
 )

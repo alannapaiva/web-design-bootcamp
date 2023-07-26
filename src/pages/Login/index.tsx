@@ -1,12 +1,11 @@
-import { Container } from "./styles";
+import { Container, Subtitle, Title } from "./styles";
 
 function Login() {
   return (
     <Container>
       <div className="login-card">
-        <h2>Login</h2>
-        <h3>Enter your credentials</h3>
-
+        <Title>Login</Title>
+        <Subtitle>Enter your credentials</Subtitle>
         <form className="login-form">
           <input type="text" placeholder="Username" />
           <input type="password" placeholder="Password"></input>
