@@ -1,4 +1,1 @@
-export enum PageRoutes {
-    register = "/",
-    login = "/login",
-  }
+export { PageRoutes } from "./routes";

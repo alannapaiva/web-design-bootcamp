@@ -1,4 +1,4 @@
-export enum PagesRoutes {
-    HomePage = "/",
-    SignUpPage = "/signup",
+export enum PageRoutes {
+    register = "/",
+    login = "/login",
 }

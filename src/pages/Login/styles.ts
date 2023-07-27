@@ -13,6 +13,7 @@ export const Container = styled.div`
   animation: rotate 6s infinite alternate linear;
   height: 100vh;
   width: 98vw;
+
   .login-card {
     position: relative;
     z-index: 3;
@@ -86,7 +87,7 @@ export const Container = styled.div`
   .login-form > a {
     color: #216ce7;
     font-size: 0.9rem;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     margin-bottom: 6px;
     transition: all 0.375s;
