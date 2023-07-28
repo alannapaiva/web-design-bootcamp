@@ -1,8 +1,8 @@
-import Sidebar from "../../components/Sidebar";
-import "../../assets/css/fonts.css";
+import { Sidebar } from "@/components/Sidebar";
+import "@/assets/css/fonts.css";
 import { Container, Subtitle, Title } from "./styles";
 
-function Login() {
+export const Login = () => {
   return (
     <Container>
       <Sidebar></Sidebar>

@@ -22,7 +22,7 @@ export const SidebarContainer = styled.div`
     transition: all 0.4s;
   }
 
-  body.open .sidebar {
+  .sidebarOpen {
     width: 240px;
   }
 
@@ -55,14 +55,14 @@ export const SidebarContainer = styled.div`
   }
 
   .sidebar-burger > i,
-  body.open .sidebar-burger > i {
+  .sidebar-burger-open > i {
     font-size: 25px;
     color: #f9f9f9;
     transition: all 0.4s;
   }
 
   .sidebar-burger:hover > i,
-  body.open .sidebar-burger:hover > i {
+  .sidebar-burger-open:hover > i {
     color: #bdbdbd;
   }
 
@@ -72,7 +72,8 @@ export const SidebarContainer = styled.div`
     transition: all 0.4s;
   }
 
-  body.open .sidebar-logo {
+  .sidebar-logo-open {
+    height: 30px;
     opacity: 1;
     transition: all 0.4s;
   }
@@ -123,7 +124,7 @@ export const SidebarContainer = styled.div`
     transition: all 0.4s;
   }
 
-  body.open .sidebar-menu > button > span {
+  .sidebar-menu-open > button > span {
     opacity: 1;
     transition: all 0.4s;
   }

@@ -1,8 +1,8 @@
 import { Container } from "./styles";
-import "../../assets/css/fonts.css";
+import "@/assets/css/fonts.css";
 import "boxicons";
 
-function Register() {
+export const Register = () => {
   return (
     <>
       <Container>
@@ -24,4 +24,3 @@ function Register() {
     </>
   );
 }
-export default Register;
