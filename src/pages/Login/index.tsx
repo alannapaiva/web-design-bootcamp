@@ -1,8 +1,11 @@
+import Sidebar from "../../components/Sidebar";
+import "../../assets/css/fonts.css";
 import { Container, Subtitle, Title } from "./styles";
 
 function Login() {
   return (
     <Container>
+      <Sidebar></Sidebar>
       <div className="container">
         <div className="login-card">
           <Title>Login</Title>

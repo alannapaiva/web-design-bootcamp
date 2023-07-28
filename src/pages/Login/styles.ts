@@ -5,14 +5,13 @@ export const Container = styled.div`
   place-items: center;
   margin: 0;
   padding: 0 24px;
-  background-image: url(./src/components/img/background.svg);
+  background-image: url(./src/assets/img/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Ubuntu";
   color: #000;
   animation: rotate 6s infinite alternate linear;
   height: 100vh;
-  width: 98vw;
 
   .login-card {
     position: relative;

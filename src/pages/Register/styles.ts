@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-    height: 100%;
+    height: 100vh;
     display: grid;
     place-items: center;
     margin: 0;
@@ -97,7 +97,7 @@ export const Container = styled.div`
     border: 2px solid #e0e0e0;
     font-family: inherit;
     font-size: 16px;
-   // padding: 0 24px;
+    padding: 0 7px;
     color: #11274c;
     transition: all 0.375s;
 }

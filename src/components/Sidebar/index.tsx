@@ -16,7 +16,7 @@ function Sidebar() {
             >
               <i className="bx bx-menu"></i>
             </button>
-            <img src="src/components/img/logo.png" alt="" className="sidebar-logo"></img>
+            <img src="./src/assets/img/logo.png" alt="" className="sidebar-logo"></img>
           </header>
           <nav className="sidebar-menu">
             <button type="button">
