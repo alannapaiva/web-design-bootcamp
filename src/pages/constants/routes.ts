@@ -3,4 +3,5 @@ export enum PageRoutes {
     login = "/login",
     popup = "/popup",
     widget = "/widget",
+    login2 = "/login2",
 }

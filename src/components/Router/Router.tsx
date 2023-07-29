@@ -3,8 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { PageRoutes } from "@/pages/constants";
 import  Login  from "@/pages/Login";
 import { Register } from "@/pages/Register";
-import { Popup } from "../Popup";
-import { Widget } from "../Widget";
+import { Popup } from "@/components/Popup";
+import { Widget } from "@/components/Widget";
+import { Login2 } from "@/pages/Login2";
 
 export const Router: React.FC = () => (
   <BrowserRouter>
@@ -13,6 +14,7 @@ export const Router: React.FC = () => (
       <Route path={PageRoutes.login} element={ <Login/> }/>
       <Route path={PageRoutes.popup} element={ <Popup/> }/>
       <Route path={PageRoutes.widget} element={ <Widget/> }/>
+      <Route path={PageRoutes.login2} element={ <Login2/> }/>
     </Routes>
   </BrowserRouter>
 );
