@@ -1,25 +1,16 @@
-import { styled } from 'styled-components';
-export const Container = styled.div `
-    box-sizing: border-box;
-    height: 100%;
-    display: grid;
-    place-items: center;
-    margin: 0;
-    padding: 0 24px;
-    background-color: #da99ff;
-    background-image: radial-gradient(at 88% 0%,
-      hsla(327, 67%, 64%, 1) 0px,
-      transparent 50%),
-    radial-gradient(at 63% 46%, hsla(307, 76%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 95% 53%, hsla(89, 91%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 83%, hsla(170, 86%, 65%, 1) 0px, transparent 50%),
-    radial-gradient(at 74% 93%, hsla(71, 93%, 75%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 13%, hsla(110, 83%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 30% 80%, hsla(263, 79%, 66%, 1) 0px, transparent 50%);
-    color: #000;
-    font-family: 'Ubuntu';
+import { styled } from "styled-components";
+export const Container = styled.div`
+  box-sizing: border-box;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0 24px;
+  background-color: #da99ff;
+  background-image: "radial-gradient(at 88% 0%,hsla(327, 67%, 64%, 1) 0px,transparent 50%),radial-gradient(at 63% 46%, hsla(307, 76%, 61%, 1) 0px, transparent 50%), radial-gradient(at 95% 53%, hsla(89, 91%, 67%, 1) 0px, transparent 50%), radial-gradient(at 79% 83%, hsla(170, 86%, 65%, 1) 0px, transparent 50%), radial-gradient(at 74% 93%, hsla(71, 93%, 75%, 1) 0px, transparent 50%), radial-gradient(at 52% 13%, hsla(110, 83%, 72%, 1) 0px, transparent 50%), radial-gradient(at 30% 80%, hsla(263, 79%, 66%, 1) 0px, transparent 50%)";
+  font-family: "Ubuntu";
 
-.login{
+  .login {
     position: fixed;
     z-index: 3;
     top: 50%;
@@ -30,44 +21,45 @@ export const Container = styled.div `
     border-radius: 1.25rem;
     background: #fff;
     text-align: center;
-}
+  }
 
-.login > img{
+  .login > img {
     width: 120px;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 20px;
-}
+  }
 
-.login > h2{
+  .login > h2 {
     font-size: 36px;
     margin: 0 0 25px;
-}
+  }
 
-.login > h3{
+  .login > h3 {
     color: rgba(0, 0, 0, 0.38);
     margin: 0 0 6px;
     font-weight: 500;
     font-size: 1rem;
-}
+  }
 
-.login-form{
+  .login-form {
     display: grid;
     gap: 30px;
     place-items: center;
     width: 100%;
     margin: 0;
-}
+  }
 
-.login-form > input, .login-form > button{
+  .login-form > input,
+  .login-form > button {
     height: 56px;
     outline: none;
     padding: 0;
     font-family: inherit;
-}
+  }
 
-.login-form > input{
+  .login-form > input {
     width: 240px;
     background: transparent;
     border: 2px solid transparent;
@@ -76,17 +68,17 @@ export const Container = styled.div `
     padding: 0;
     text-align: center;
     transition: all 0.3s;
-}
+  }
 
-.login-form > input:hover{
+  .login-form > input:hover {
     border-bottom: 2px solid #303f9f;
-}
+  }
 
-.login-form > input:focus{
+  .login-form > input:focus {
     border-bottom: 2px solid #1976d2;
-}
+  }
 
-.login-form > button{
+  .login-form > button {
     cursor: pointer;
     width: 100%;
     height: 56px;
@@ -98,39 +90,39 @@ export const Container = styled.div `
     font-weight: 600;
     letter-spacing: 2px;
     transition: all 0.3s;
-}
+  }
 
-.login-form > button:hover{
+  .login-form > button:hover {
     background-color: #1976d2;
-}
+  }
 
-.login-form > a{
+  .login-form > a {
     color: #303f9f;
     font-size: 1rem;
     text-align: left;
     text-decoration: none;
     transition: all 0.3s;
-}
+  }
 
-.login-form > a:hover{
+  .login-form > a:hover {
     color: #1976d2;
-}
+  }
 
-@media (width >= 450px){
-    .login{
-        width: 380px;
+  @media (width >= 450px) {
+    .login {
+      width: 380px;
     }
-}
+  }
 
-@media (width >= 500px){
-    body{
-        padding: 0;
+  @media (width >= 500px) {
+    body {
+      padding: 0;
     }
-}
+  }
 
-@media (width >= 1200px){
-    .login{
-        width: 25%;
+  @media (width >= 1200px) {
+    .login {
+      width: 25%;
     }
-}
+  }
 `;

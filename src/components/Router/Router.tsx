@@ -6,6 +6,7 @@ import { Register } from "@/pages/Register";
 import { Popup } from "@/components/Popup";
 import { Widget } from "@/components/Widget";
 import { Login2 } from "@/pages/Login2";
+import { InstaSidebar } from "../InstaSidebar";
 
 export const Router: React.FC = () => (
   <BrowserRouter>
@@ -15,6 +16,7 @@ export const Router: React.FC = () => (
       <Route path={PageRoutes.popup} element={ <Popup/> }/>
       <Route path={PageRoutes.widget} element={ <Widget/> }/>
       <Route path={PageRoutes.login2} element={ <Login2/> }/>
+      <Route path={PageRoutes.instaSidebar} element={ <InstaSidebar/> }/>
     </Routes>
   </BrowserRouter>
 );
