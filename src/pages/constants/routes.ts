@@ -5,4 +5,5 @@ export enum PageRoutes {
     widget = "/widget",
     login2 = "/login2",
     instaSidebar = "/instaSidebar",
+    gmailNavbar = "/gmailNavbar",
 }

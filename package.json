@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.14.1",
     "@types/styled-components": "^5.1.26",
     "boxicons": "^2.1.4",
     "express": "^4.18.2",
+    "material": "^0.5.3",
+    "material-symbols": "^0.10.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",

@@ -7,6 +7,7 @@ import { Popup } from "@/components/Popup";
 import { Widget } from "@/components/Widget";
 import { Login2 } from "@/pages/Login2";
 import { InstaSidebar } from "../InstaSidebar";
+import { GmailNavbar } from "../GmailNavbar";
 
 export const Router: React.FC = () => (
   <BrowserRouter>
@@ -17,6 +18,7 @@ export const Router: React.FC = () => (
       <Route path={PageRoutes.widget} element={ <Widget/> }/>
       <Route path={PageRoutes.login2} element={ <Login2/> }/>
       <Route path={PageRoutes.instaSidebar} element={ <InstaSidebar/> }/>
+      <Route path={PageRoutes.gmailNavbar} element={ <GmailNavbar/> }/>
     </Routes>
   </BrowserRouter>
 );
