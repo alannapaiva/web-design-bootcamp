@@ -17,7 +17,7 @@ export const Container = styled.div`
     width: 90%;
   }
 
-  .visa{
+  .visa {
     fill: #fff;
   }
   input {

@@ -1,20 +1,20 @@
 import { styled } from "styled-components";
 
 export const Container = styled.div`
-    margin: 0;
-    display: grid;
-    place-items: center;
-    background: gray;
-    height: 100%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: gray;
+  height: 100%;
 
-.pager{
+  .pager {
     width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.pager button{
+  .pager button {
     flex: 0 0 42px;
     height: 42px;
     border: 0;
@@ -22,22 +22,22 @@ export const Container = styled.div`
     background: transparent;
     cursor: pointer;
     transition: 0.4s;
-}
+  }
 
-.pager button span{
+  .pager button span {
     display: block;
     height: 30px;
     width: 100%;
     border-radius: 15px;
     background: #383142;
     transition: 0.4s;
-}
+  }
 
-.pager button:focus{
+  .pager button:focus {
     flex: 0 0 80px;
-}
+  }
 
-.pager button:focus span{
+  .pager button:focus span {
     background: pink;
-}
-`; 
+  }
+`;

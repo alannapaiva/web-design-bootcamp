@@ -20,5 +20,5 @@ export const Login = () => {
       </div>
     </Container>
   );
-}
+};
 export default Login;

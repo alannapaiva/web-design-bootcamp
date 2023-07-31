@@ -54,7 +54,6 @@ export const Container = styled.div`
     border: 2px solid #ebebeb;
     font-family: inherit;
     font-size: 15px;
-   // padding: 0 16px;
     border-radius: 1.25rem;
     transition: all 0.375s;
   }
@@ -113,10 +112,10 @@ export const Container = styled.div`
   }
 `;
 
-export const Title = styled.div `
+export const Title = styled.div`
   font-size: 50px;
 `;
-export const Subtitle = styled.div `
+export const Subtitle = styled.div`
   font-size: 20px;
   margin-bottom: 20px;
 `;

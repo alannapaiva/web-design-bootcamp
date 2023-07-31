@@ -26,7 +26,9 @@ export const Sidebar = () => {
                 className={open === true ? "sidebar-logo-open" : "sidebar-logo"}
               ></img>
             </header>
-            <div className={open===true?"sidebar-menu-open":"sidebar-menu"}>
+            <div
+              className={open === true ? "sidebar-menu-open" : "sidebar-menu"}
+            >
               <nav className="sidebar-menu">
                 <button type="button">
                   <i className="bx bx-home"></i>

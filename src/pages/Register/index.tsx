@@ -19,8 +19,11 @@ export const Register = () => {
             <button type="submit">SIGN UP</button>
           </form>
         </div>
-        <footer> Existing users, sign in <a href="#"> Here</a></footer>
+        <footer>
+          {" "}
+          Existing users, sign in <a href="#"> Here</a>
+        </footer>
       </Container>
     </>
   );
-}
+};

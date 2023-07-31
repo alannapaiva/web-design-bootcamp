@@ -40,7 +40,7 @@ export const Container = styled.div`
     height: 32px;
   }
 
-  .profile{
+  .profile {
     margin-top: 50px;
   }
   .sidebar button {
