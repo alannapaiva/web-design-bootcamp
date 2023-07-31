@@ -10,6 +10,7 @@ import { InstaSidebar } from "../InstaSidebar";
 import { GmailNavbar } from "../GmailNavbar";
 import { DotPagination } from "../DotPagination";
 import { CreditCard } from "../../pages/CreditCard";
+import { Footer } from "../Footer";
 
 export const Router: React.FC = () => (
   <BrowserRouter>
@@ -19,6 +20,7 @@ export const Router: React.FC = () => (
       <Route path={PageRoutes.popup} element={ <Popup/> }/>
       <Route path={PageRoutes.widget} element={ <Widget/> }/>
       <Route path={PageRoutes.login2} element={ <Login2/> }/>
+      <Route path={PageRoutes.footer} element={ <Footer/> }/>
       <Route path={PageRoutes.instaSidebar} element={ <InstaSidebar/> }/>
       <Route path={PageRoutes.gmailNavbar} element={ <GmailNavbar/> }/>
       <Route path={PageRoutes.dotPagination} element={ <DotPagination/> }/>
