@@ -13,19 +13,14 @@ export const Popup = () => {
       <button onClick={toggleModal} type="button">
         Open Modal
       </button>
-      <div
-        className={open === true ? "modal-background-open" : "modal-background"}
-        onClick={toggleModal}
-      ></div>
-      <nav className={open === true ? "modalOpen" : "modal"}>
-        <div className="modal">
+        <div className={`modal-background ${open ? "modal-background-open" : ""}`} onClick={toggleModal}></div>
+        <div className={`modal ${open ? "modalOpen" : ""}`}>
           <h2>Modal Window</h2>
           <p>
             You have opened the modal, they are great for displaying critical
             informations or confirming actions!
           </p>
         </div>
-      </nav>
     </Container>
   );
 };

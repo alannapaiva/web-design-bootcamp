@@ -11,7 +11,7 @@ export const Container = styled.div`
   button {
     font-family: inherit;
     cursor: pointer;
-    background: #1a1a1a;
+    background: #FF1493;
     color: #f9f9f9;
     border: 0;
     border-radius: 8px;
@@ -68,6 +68,7 @@ export const Container = styled.div`
   }
 
   h2 {
+    color: #FF1493;
     margin: 0 0 8px;
     font-weight: 400;
     font-size: 21px;
