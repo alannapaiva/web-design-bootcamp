@@ -9,6 +9,7 @@ import { Login2 } from "@/pages/Login2";
 import { InstaSidebar } from "../InstaSidebar";
 import { GmailNavbar } from "../GmailNavbar";
 import { DotPagination } from "../DotPagination";
+import { CreditCard } from "../../pages/CreditCard";
 
 export const Router: React.FC = () => (
   <BrowserRouter>
@@ -21,6 +22,7 @@ export const Router: React.FC = () => (
       <Route path={PageRoutes.instaSidebar} element={ <InstaSidebar/> }/>
       <Route path={PageRoutes.gmailNavbar} element={ <GmailNavbar/> }/>
       <Route path={PageRoutes.dotPagination} element={ <DotPagination/> }/>
+      <Route path={PageRoutes.creditCard} element={ <CreditCard/> }/>
     </Routes>
   </BrowserRouter>
 );

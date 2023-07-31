@@ -6,5 +6,6 @@ export enum PageRoutes {
     login2 = "/login2",
     instaSidebar = "/instaSidebar",
     gmailNavbar = "/gmailNavbar",
-    dotPagination = "/dotPagination"
+    dotPagination = "/dotPagination",
+    creditCard = "/creditCard",
 }
