@@ -89,7 +89,6 @@ export const Container = styled.div`
 
   .form > input,
   .form > button {
-    width: 100%;
     height: 50px;
     border-radius: 28px;
   }
@@ -109,6 +108,7 @@ export const Container = styled.div`
 
   .form > input::placeholder {
     color: #cac8c8;
+    padding: 10px;
   }
 
   .form > button {

@@ -18,11 +18,10 @@ export const Register = () => {
             <input type="password" placeholder="Password"></input>
             <button type="submit">SIGN UP</button>
           </form>
+          <footer>
+            Existing users, sign in <a href="#"> Here</a>
+          </footer>
         </div>
-        <footer>
-          {" "}
-          Existing users, sign in <a href="#"> Here</a>
-        </footer>
       </Container>
     </>
   );

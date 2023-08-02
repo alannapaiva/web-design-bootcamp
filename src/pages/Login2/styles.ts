@@ -71,18 +71,18 @@ export const Container = styled.div`
   }
 
   .login-form > input:hover {
-    border-bottom: 2px solid #303f9f;
+    border-bottom: 2px solid #FF1493;
   }
 
   .login-form > input:focus {
-    border-bottom: 2px solid #1976d2;
+    border-bottom: 2px solid #FF1493;
   }
 
   .login-form > button {
     cursor: pointer;
     width: 100%;
     height: 56px;
-    background: #303f9f;
+    background: pink;
     color: #f9f9f9;
     border: 0;
     border-radius: 10px;
@@ -93,11 +93,11 @@ export const Container = styled.div`
   }
 
   .login-form > button:hover {
-    background-color: #1976d2;
+    background-color: #FF1493;
   }
 
   .login-form > a {
-    color: #303f9f;
+    color: #FF1493;
     font-size: 1rem;
     text-align: left;
     text-decoration: none;
@@ -105,7 +105,7 @@ export const Container = styled.div`
   }
 
   .login-form > a:hover {
-    color: #1976d2;
+    color: pink;
   }
 
   @media (width >= 450px) {

@@ -12,9 +12,8 @@ export const Container = styled.div`
   color: #000;
   animation: rotate 6s infinite alternate linear;
   height: 100vh;
-
+  
   .login-card {
-    position: relative;
     z-index: 3;
     width: 100%;
     margin: 0 20px;
@@ -22,6 +21,10 @@ export const Container = styled.div`
     border-radius: 1.25rem;
     background: #fff;
     text-align: center;
+  }
+
+  .login-form>input::placeholder{
+    padding: 10px;
   }
 
   .login-card > h2 {

@@ -26,10 +26,10 @@ export const Sidebar = () => {
                 className={open === true ? "sidebar-logo-open" : "sidebar-logo"}
               ></img>
             </header>
+             <nav className="sidebar-menu"> 
             <div
               className={open === true ? "sidebar-menu-open" : "sidebar-menu"}
             >
-              <nav className="sidebar-menu">
                 <button type="button">
                   <i className="bx bx-home"></i>
                   <span>Home</span>
@@ -70,8 +70,9 @@ export const Sidebar = () => {
                   <i className="bx bx-lock"></i>
                   <span>Security</span>
                 </button>
+              </div> 
               </nav>
-            </div>
+           
           </div>
         </nav>
       </SidebarContainer>

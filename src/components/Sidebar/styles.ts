@@ -16,14 +16,25 @@ export const SidebarContainer = styled.div`
     overflow: hidden;
     top: 0;
     left: 0;
-    width: 75px;
+    width: 70px;
     height: 100%;
     background: #3949ab;
     transition: all 0.4s;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      width: 0;
+    }
   }
-
+  
   .sidebarOpen {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
     width: 240px;
+    height: 100%;
+    background: #3949ab;
+    transition: all 0.4s;
   }
 
   .sidebar-inner {
@@ -106,7 +117,21 @@ export const SidebarContainer = styled.div`
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     margin-bottom: 1rem;
   }
-
+  .sidebar-menu-open > button{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    height: 55px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1;
+    padding: 0 22px;
+    border-left: 3px solid transparent;
+    transition: all 0.4s;
+    color: #fff;
+  }
   .sidebar-menu > button > i {
     font-size: 25px;
     color: #f9f9f9;
@@ -127,5 +152,6 @@ export const SidebarContainer = styled.div`
   .sidebar-menu-open > button > span {
     opacity: 1;
     transition: all 0.4s;
+    color: #fff;
   }
 `;
